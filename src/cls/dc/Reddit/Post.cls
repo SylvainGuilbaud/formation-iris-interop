@@ -57,8 +57,44 @@ Storage Default
 </Data>
 <DataLocation>^dc.Reddit.PostD</DataLocation>
 <DefaultData>PostDefaultData</DefaultData>
+<ExtentSize>10</ExtentSize>
 <IdLocation>^dc.Reddit.PostD</IdLocation>
 <IndexLocation>^dc.Reddit.PostI</IndexLocation>
+<Property name="%%CLASSNAME">
+<AverageFieldSize>2</AverageFieldSize>
+<Selectivity>100.0000%</Selectivity>
+</Property>
+<Property name="%%ID">
+<AverageFieldSize>3</AverageFieldSize>
+<Selectivity>1</Selectivity>
+</Property>
+<Property name="Author">
+<AverageFieldSize>14.6</AverageFieldSize>
+<Selectivity>10.0000%</Selectivity>
+</Property>
+<Property name="CreatedUTC">
+<AverageFieldSize>8</AverageFieldSize>
+<Selectivity>10.0000%</Selectivity>
+</Property>
+<Property name="OriginalJSON">
+<AverageFieldSize>8175.7</AverageFieldSize>
+<Selectivity>10.0000%</Selectivity>
+</Property>
+<Property name="Selftext">
+<AverageFieldSize>1281</AverageFieldSize>
+<Selectivity>10.0000%</Selectivity>
+</Property>
+<Property name="Title">
+<AverageFieldSize>57.4</AverageFieldSize>
+<Selectivity>10.0000%</Selectivity>
+</Property>
+<Property name="Url">
+<AverageFieldSize>91.7</AverageFieldSize>
+<Selectivity>10.0000%</Selectivity>
+</Property>
+<SQLMap name="IDKEY">
+<BlockCount>-64</BlockCount>
+</SQLMap>
 <StreamLocation>^dc.Reddit.PostS</StreamLocation>
 <Type>%Storage.Persistent</Type>
 }

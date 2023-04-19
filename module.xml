@@ -15,6 +15,10 @@
           <Name>objectscript-json-trace-viewer</Name>
           <Version>1.0.*</Version>
         </ModuleReference>
+         <ModuleReference>
+          <Name>webterminal</Name>
+          <Version>4.*</Version>
+        </ModuleReference>
       </Dependencies>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.Reddit.PKG"/>

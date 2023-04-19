@@ -7,7 +7,7 @@ Property SSLConfig As %String;
 
 Parameter SERVER = "www.reddit.com";
 
-Property Feed As %String;
+Property Feed As %String [ InitialExpression = "/r/france/" ];
 
 /// how many messages to receive per request
 Property Limit As %Integer;

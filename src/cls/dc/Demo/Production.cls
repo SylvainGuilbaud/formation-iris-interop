@@ -6,12 +6,6 @@ XData ProductionDefinition
 <Production Name="dc.Demo.Production" TestingEnabled="true" LogGeneralTraceEvents="false">
   <Description>This is a sample Reddit cats and dogs production</Description>
   <ActorPoolSize>2</ActorPoolSize>
-  <Item Name="dc.Demo.RedditService" Category="" ClassName="dc.Demo.RedditService" PoolSize="1" Enabled="true" Foreground="false" Comment="Service to fetch data from Reddit" LogTraceEvents="true" Schedule="">
-    <Setting Target="Adapter" Name="Feed">/new/</Setting>
-    <Setting Target="Adapter" Name="SSLConfig">default</Setting>
-    <Setting Target="Adapter" Name="CallInterval">15</Setting>
-    <Setting Target="Adapter" Name="Limit">50</Setting>
-  </Item>
   <Item Name="FilterPosts" Category="" ClassName="EnsLib.MsgRouter.RoutingEngine" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
     <Setting Target="Host" Name="BusinessRuleName">dc.Demo.FilterPostsRoutingRule</Setting>
   </Item>
@@ -26,8 +20,18 @@ XData ProductionDefinition
     <Setting Target="Adapter" Name="Charset">utf-8</Setting>
     <Setting Target="Adapter" Name="FilePath">/home/irisowner/irisdev/output/</Setting>
   </Item>
+  <Item Name="REDDIT FR" Category="" ClassName="dc.Demo.RedditService" PoolSize="1" Enabled="true" Foreground="false" Comment="Service to fetch data from Reddit" LogTraceEvents="true" Schedule="">
+    <Setting Target="Adapter" Name="SSLConfig">default</Setting>
+    <Setting Target="Adapter" Name="CallInterval">15</Setting>
+    <Setting Target="Adapter" Name="Limit">50</Setting>
+  </Item>
+  <Item Name="REDDIT US" Category="" ClassName="dc.Demo.RedditService" PoolSize="1" Enabled="true" Foreground="false" Comment="Service to fetch data from Reddit" LogTraceEvents="true" Schedule="">
+    <Setting Target="Adapter" Name="SSLConfig">default</Setting>
+    <Setting Target="Adapter" Name="CallInterval">15</Setting>
+    <Setting Target="Adapter" Name="Limit">50</Setting>
+    <Setting Target="Adapter" Name="Feed">/new/</Setting>
+  </Item>
 </Production>
 }
 
 }
-
