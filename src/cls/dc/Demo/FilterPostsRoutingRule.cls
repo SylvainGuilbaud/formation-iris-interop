@@ -11,9 +11,9 @@ XData RuleDefinition [ XMLNamespace = "http://www.intersystems.com/rule" ]
 <rule name="FR">
 <constraint name="msgClass" value="dc.Demo.PostMessage"></constraint>
 <constraint name="source" value="REDDIT FR"></constraint>
-<when condition="(ToUpper(Document.Post.Selftext)) Contains &quot;GRÈVE&quot;||((ToUpper(Document.Post.Selftext)) Contains &quot;MANIF&quot;)" comment="">
-<assign property="Document.ToEmailAddress" value="&quot;cat@company.com&quot;"></assign>
-<assign property="Document.Found" value="&quot;GREVE&quot;"></assign>
+<when condition="(ToUpper(Document.Post.Selftext)) Contains &quot;DÉVELOPPEMENT&quot;||((ToUpper(Document.Post.Selftext)) Contains &quot;CODE&quot;)" comment="">
+<assign property="Document.ToEmailAddress" value="&quot;developpement@company.com&quot;"></assign>
+<assign property="Document.Found" value="&quot;DEVELOPPEMENT&quot;"></assign>
 <send transform="" target="dc.Demo.EmailOperation,dc.Demo.FileOperation"></send>
 <return></return>
 </when>
@@ -24,9 +24,9 @@ XData RuleDefinition [ XMLNamespace = "http://www.intersystems.com/rule" ]
 <rule name="US" disabled="false">
 <constraint name="source" value="REDDIT US"></constraint>
 <constraint name="msgClass" value="dc.Demo.PostMessage"></constraint>
-<when condition="(ToUpper(Document.Post.Selftext)) Contains &quot;Cat&quot;" comment="">
-<assign property="Document.ToEmailAddress" value="&quot;cat@company.com&quot;"></assign>
-<assign property="Document.Found" value="&quot;Cat&quot;"></assign>
+<when condition="(ToUpper(Document.Post.Selftext)) Contains &quot;TRUE&quot;" comment="">
+<assign property="Document.ToEmailAddress" value="&quot;true@company.com&quot;"></assign>
+<assign property="Document.Found" value="&quot;True&quot;"></assign>
 <send transform="" target="dc.Demo.EmailOperation,dc.Demo.FileOperation"></send>
 </when>
 </rule>
