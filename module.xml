@@ -20,7 +20,7 @@
           <Version>4.*</Version>
         </ModuleReference>
       </Dependencies>
-      <SourcesRoot>src</SourcesRoot>
+      <SourcesRoot>src/cls</SourcesRoot>
       <Resource Name="dc.Reddit.PKG"/>
       <Resource Name="dc.Demo.PKG"/>
       <SystemRequirements Version=">=2020.1" Interoperability="enabled" />
