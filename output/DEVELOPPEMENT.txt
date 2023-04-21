@@ -26,3 +26,17 @@ Vous pouvez participer à l'adresse suivante :
 * **Les données d'entraînement seront-elles également publiées ?** Oui, sous CC BY 4.0.
 * **Open Assistant sera-t-il gratuit ?** Oui, Open Assistant sera gratuit pour l'utiliser et le modifier.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+2023-04-20 07:19:30 : Il y a une alternative libre à chatgpt et vous pouvez aider à le rendre meilleur. : Najbox : https://www.reddit.com/r/france/comments/12spstf/il_y_a_une_alternative_libre_à_chatgpt_et_vous/
+
+Vous pouvez participer à l'adresse suivante :
+
+[https://open-assistant.io/](https://open-assistant.io/)
+
+**Questions fréquentes :**
+
+* **À quel stade est ce projet ?** Nous sommes aux premiers stades du développement, travaillant à partir de recherches établies dans l'application de RLHF aux modèles de language large (LLM).
+* **Qui se trouve derrière Open Assistant ?** Open Assistant est un projet organisé par LAION et des individus du monde entier intéressés à apporter cette technologie à tout le monde.
+* **Quel est le type de licence utilisé par Open Assistant ?** Le code et les modèles sont sous licence Apache 2.0.
+* **Les données d'entraînement seront-elles également publiées ?** Oui, sous CC BY 4.0.
+* **Open Assistant sera-t-il gratuit ?** Oui, Open Assistant sera gratuit pour l'utiliser et le modifier.
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

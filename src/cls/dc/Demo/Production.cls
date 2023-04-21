@@ -9,7 +9,7 @@ XData ProductionDefinition
   <Item Name="FilterPosts" Category="" ClassName="EnsLib.MsgRouter.RoutingEngine" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
     <Setting Target="Host" Name="BusinessRuleName">dc.Demo.FilterPostsRoutingRule</Setting>
   </Item>
-  <Item Name="dc.Demo.EmailOperation" Category="" ClassName="dc.Demo.EmailOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
+  <Item Name="dc.Demo.EmailOperation" Category="" ClassName="dc.Demo.EmailOperation" PoolSize="1" Enabled="false" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
     <Setting Target="Adapter" Name="SMTPPort"></Setting>
     <Setting Target="Adapter" Name="SMTPServer"></Setting>
     <Setting Target="Adapter" Name="SSLConfig"></Setting>
